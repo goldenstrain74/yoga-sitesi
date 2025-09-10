@@ -1,0 +1,44 @@
+body{
+   background-image: url('Images/zemin.png'); /* Görselin yolu */
+  background-size: cover;             /* Tüm ekranı kaplasın */
+  background-position: center center; /* Ortalanmış şekilde yerleşsin */
+  height: 100vh;                      /* Görselin yüksekliği ekran kadar olsun */
+  margin: 0; 
+}
+
+a { 
+    color: #ccc !important;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+
+.menu{
+    background-color: #333;
+}
+.menu div:hover
+{
+    background-color: #777;
+}
+
+.menu img { width: 45px; width: 45px;}
+
+.bannertxt{
+    width: 300px;
+    position: absolute;
+    margin-left: 60%;
+    color: red;
+}
+
+.bannerImg{width: 100%; height: auto; margin: 0px; padding: 0px;}
+
+p{width: 200px;}
+
+.content{height: max-content;}
+
+.contentImg{width: 100%; height: auto;}
+
+.contentR{ background-color: yellow !important; height: max-content;}
+
+.contentRimg  {width: 100%;  height: auto;}
+
+
